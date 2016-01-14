@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+    <link rel="stylesheet" type="text/css" href="styles\chatapp.css">
+    <script src="scripts\showNameAndMessage.js"></script>
+    <script src="scripts\checkSubmit.js"></script>
+</head>
+<body>
+    <h1>Chat App</h1>
+
+    <form name="nameMessageForm">
+        <label>Name:</label><input class="inputbox" id="name" type="text" name="name" onkeyup="checkSubmit()"/><br><br>
+        <label>Message:</label><input class="inputbox" id="message" type="text" name="message" onkeyup="checkSubmit()"/><br><br>
+        <input class="button" id="submitbutton" type="button" disabled="disabled" value="Submit" onclick="displayNameAndMessage()"/>
+    </form>
+    <hr>
+    <h2>Messages</h2><br>
+    <div id="show"></div>
+</body>
+</html>

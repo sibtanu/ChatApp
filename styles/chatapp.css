@@ -1,0 +1,18 @@
+label{
+    float: left;
+    width:90px;
+    font-family: "Century Gothic";
+    font-weight: 400;
+}
+div{
+    font-family: "Century Gothic";
+    font-weight: bold;
+    background-color: #FFE9EC;
+    margin-bottom: 15px;
+}
+h1,h2{
+    font-family: Calibri;
+}
+.button:enabled{
+    background: #00FF7F;
+}
